@@ -1,0 +1,21 @@
+{
+    "name": "Extensão do Chrome Teste 01",
+    "description": "Teste de extensão do Chrome!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "author": "Cleomar Cantil",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": [
+      "tabs",
+      "tabGroups"
+    ],
+    "action": {
+      "default_popup": "popup/popup.html",
+      "default_icon": "icons/fogo.png"
+    },
+    "icons": {
+      "128": "icons/fogo.png"
+    }
+  }
